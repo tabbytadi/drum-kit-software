@@ -31,12 +31,6 @@ A fun and interactive project that simulates a drum kit! Users can play drum sou
 2. **Press Keys**: Keyboard keys (`w`, `a`, `s`, `d`, `j`, `k`, `l`) trigger specific drum sounds and animations.
 3. **Enjoy!** Experiment with combinations to create your own rhythm.
 
-## 📂 Project Structure
-
-- `index.html`: Contains the structure of the drum kit.
-- `styles.css`: Styles the drum kit UI and defines animation classes.
-- `app.js`: Implements the logic for handling events, playing sounds, and triggering animations.
-- `sounds/`: Folder containing drum sound files.
 
 ## 🎯 Try It Out
 

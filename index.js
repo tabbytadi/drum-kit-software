@@ -1,3 +1,20 @@
+//Detecting Button Press
+for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
+  document.querySelectorAll(".drum")[i].addEventListener("click", function () {
+    var buttonInnerHTML = this.innerHTML;
+    makeSound(buttonInnerHTML);
+    generateButtonAnimation(buttonInnerHTML);
+  });
+}
+
+//Detecting Keyboard Press
+addEventListener("keydown", function (event) {
+  makeSound(event.key);
+  generateButtonAnimation(event.key);
+}
+);
+
+
 function makeSound(key) {
   switch (key) {
     case "w":
@@ -33,16 +50,10 @@ function makeSound(key) {
   }
 }
 
-//Detecting Button Press
-for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
-  document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-    var buttonInnerHTML = this.innerHTML;
-    makeSound(buttonInnerHTML);
-  });
+function generateButtonAnimation(currentKey) {
+  var activeButton = document.querySelector("." + currentKey);
+  activeButton.classList.add("pressed");
+  setTimeout(function () {
+    activeButton.classList.remove("pressed");
+  }, 100);
 }
-
-//Detecting Keyboard Press
-addEventListener("keydown", function (event) {
-  makeSound(event.key);
-}
-);

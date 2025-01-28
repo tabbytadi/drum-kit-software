@@ -16,15 +16,6 @@ A fun and interactive project that simulates a drum kit! Users can play drum sou
 - **CSS Animations via JavaScript**:
   - Dynamically adding and removing CSS classes to create button animations.
 
-## 🛠️ Features
-
-1. **Interactive Sounds**:
-   - Play drum sounds by clicking on buttons or pressing specific keys (`w`, `a`, `s`, `d`, `j`, `k`, `l`).
-2. **Button Animations**:
-   - Visual feedback through animations when a button is pressed or a corresponding key is triggered.
-3. **Seamless User Experience**:
-   - Responsive and intuitive interaction through both mouse and keyboard inputs.
-
 ## 🛠️ How It Works
 
 1. **Click the Buttons**: Each button corresponds to a drum sound and animates when clicked.

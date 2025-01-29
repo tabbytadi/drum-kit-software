@@ -2,7 +2,6 @@
 
 
 
-
 A fun and interactive project that simulates a drum kit! Users can play drum sounds by either clicking buttons or pressing corresponding keys on the keyboard, with added button animations for enhanced user experience.
 
 ## 🚀 Skills Demonstrated
